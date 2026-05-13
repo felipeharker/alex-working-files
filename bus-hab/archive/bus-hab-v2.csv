@@ -1,0 +1,35 @@
+item name,type,value
+
+// Bus Habitat Dimensions
+rec-w,float,72.0
+rect-h,float,120.0
+hab-dep,float,240.0
+
+// Bus Hab Louvers
+hab-louv-cnt,float,12.0
+louv-dim-a,float,4.0
+louv-dim-b,float,4.0
+
+// Bottom Point A
+att-bott-a-pt,float,0.8
+att-bott-a-x-max,float,0
+att-bott-a-x-min,float,0
+
+// Top Point A
+att-top-a-pt,float,0.2
+att-top-a-z-max,float,24.0
+att-top-a-z-min,float,4.0
+att-top-a-x-max,float,24.0
+att-top-a-x-min,float,-24.0
+
+// Top Point B
+att-top-b-pt,float,0.7
+att-top-b-z-max,float,24.0
+att-top-b-z-min,float,4.0
+
+// Bottom Point B
+att-bott-b-pt,float,0.3
+att-bott-b-z-max,float,108.0
+att-bott-b-z-min,float,96.0
+att-bott-b-x-max,float,24.0
+att-bott-b-x-min,float,4.0

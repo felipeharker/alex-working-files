@@ -1,0 +1,37 @@
+item name,type,value
+
+// FORMAL CONSTRAINTS
+
+// Bus Habitat Dimensions
+rec-w,float,72.0
+rect-h,float,96.0
+hab-dep,float,240.0
+
+// Louver Specs
+cont-dist,float,8
+
+// Bus Hab Louvers Dimensions
+louv-dim-a,float,4.0
+louv-dim-b,float,4.0
+
+// Rectangle Movements
+
+start-top-back-z,float,-48
+end-top-back-z,float,12
+
+start-top-back-x,float,-12
+end-top-back-x,float,-48
+
+start-top-front-z-a,float,-12
+end-top-front-z-a,float,12
+
+start-top-front-x-a,float,-60
+end-top-front-x-a,float,-30
+
+third-togg,float,1
+
+start-top-front-z-b,float,-24
+end-top-front-z-b,float,-12
+
+start-top-front-x-b,float,-12
+end-top-front-x-b,float,12

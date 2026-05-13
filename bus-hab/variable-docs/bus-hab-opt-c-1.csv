@@ -1,0 +1,59 @@
+item name,type,value
+
+// FORMAL CONSTRAINTS
+
+// Bus Habitat Dimensions
+rec-w,float,72.0
+rect-h,float,96.0
+hab-dep,float,240.0
+
+// Bus Hab Louvers Spacing
+hab-louv-dist,float,12
+
+// Bus Hab Louvers Dimensions
+louv-dim-a,float,4.0
+louv-dim-b,float,4.0
+
+
+
+// GEOMETRIC MODIFICATIONS
+
+// Top Point A Location
+att-top-a-pt,float,.25
+
+// Top Point A Z-Axis Changes
+att-top-a-z-max,float,6
+att-top-a-z-min,float,-24.0
+
+// Top Point A X-Axis Changes
+att-top-a-x-max,float,48
+att-top-a-x-min,float,12
+
+
+
+// Top Point B Location
+att-top-b-pt,float,.75
+
+// Top Point B Z-Axis Changes
+att-top-b-z-max,float,100
+att-top-b-z-min,float,84
+
+// Top Point B X-Axis Changes
+att-top-b-x-max,float,0
+att-top-b-x-min,float,-12
+
+
+// Third Curve Toggle
+obj-tog,float,0
+
+
+// Bottom Point B Location
+att-bott-b-pt,float,.5
+
+// Bottom Point B Z-Axis Changes
+att-bott-b-z-max,float,80
+att-bott-b-z-min,float,6
+
+// Bottom Point B X-Axis Changes
+att-bott-b-x-max,float,6
+att-bott-b-x-min,float,12
